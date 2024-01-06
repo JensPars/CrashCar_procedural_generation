@@ -1,0 +1,7 @@
+  {
+    "device": "METAL",
+    "resolution": 512,
+    "damage_type": "dent",
+    "part_type": "front_bumper",
+    "n_imgs": 10
+  }
