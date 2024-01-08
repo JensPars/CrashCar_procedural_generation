@@ -1,17 +1,6 @@
-# 
-# CrashCar
+# CrashCar101: Procedural Generation for Damage Assessment
 
-Welcome to CrashCar! This repository contains a collection of synthetic data for car crashes.
-
-## Table of Contents
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Introduction
-In this repository, you will find synthetic data generated for car crashes. The data is intended for research, testing, or educational purposes.
+Welcome to CrashCar! This repository contains the procedural generation pipeline used to generate [CrashCar101](https://www.compute.dtu.dk).
 
 ## Installation
 To use the CrashCar data, you can simply clone this repository to your local machine:
@@ -20,4 +9,15 @@ The code is only dependent on the Blenders internal python interpreter, you just
 ## Generate images
 
 Simply run the command
-<path to blender executable> main.blend --background --python main.py
+`<path to blender executable>` main.blend --background --python main.py
+
+## Citation
+```bibtex
+@InProceedings{parslov_2024_WACV,
+        author    = {Parslov, Jens and Riise, Erik and Papadopoulos, Dim P.},
+        title     = {CrashCar101: Procedural Generation for Damage Assessment},
+        booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+        month     = {January},
+        year      = {2024},
+    }
+```
