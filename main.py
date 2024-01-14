@@ -12,7 +12,7 @@ from scene_class import Scene
 
 
 
-def main(device, resolution, n_imgs, part_type, damage_type):
+def main(device, resolution, n_imgs):
     # set device used for rendering
     bpy.context.preferences.addons[
         "cycles"

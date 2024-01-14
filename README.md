@@ -5,7 +5,6 @@ Created by [Jens Parslov](https://www.linkedin.com/in/jens-parslov/), [Erik Riis
 Welcome to CrashCar! This repository contains the procedural generation pipeline used to generate [CrashCar101](https://www.crashcar.compute.dtu.dk).
 
 ## Installation
-To use the CrashCar data, you can simply clone this repository to your local machine:
 The code is only dependent on the Blenders internal python interpreter, you just need to download [Blender 3.3](https://www.blender.org/download/lts/3-3/)
 
 ## Car models and HDRI setup
@@ -14,8 +13,22 @@ The code is only dependent on the Blenders internal python interpreter, you just
 
 
 ## Generate images
-Simply run the command
+To start rendering images simply run the command
+
 `<path to blender executable> main.blend --background --python main.py`
+
+
+### Configuration Options
+
+
+## Configuration Options
+
+You can specify the following options in the `config.json` file:
+
+- "device": can be "CPU", "CUDA" or "METAL".
+- "resolution": specify the resolution of the rendered images.
+- "n_imgs": The number of images rendered for each car model.
+
 
 ## Citation
 ```bibtex
