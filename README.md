@@ -17,11 +17,7 @@ To start rendering images simply run the command
 
 `<path to blender executable> main.blend --background --python main.py`
 
-
 ### Configuration Options
-
-
-## Configuration Options
 
 You can specify the following options in the `config.json` file:
 
