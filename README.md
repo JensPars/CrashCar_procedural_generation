@@ -1,6 +1,6 @@
 # CrashCar101: Procedural Generation for Damage Assessment
 Created by [Jens Parslov](https://www.linkedin.com/in/jens-parslov/), [Erik Riise](https://www.linkedin.com/in/erik-riise-97a6a31a6/), [Dim P. Papadopoulos](https://orbit.dtu.dk/en/persons/dimitrios-papadopoulos)
-[[`Paper (WACV 2024)`](https://openaccess.thecvf.com/content/WACV2024/papers/Parslov_CrashCar101_Procedural_Generation_for_Damage_Assessment_WACV_2024_paper.pdf)] [[`Project page`](https://crashcar.compute.dtu.dk)] [[`Extended Abstract (ICCV-W 2023)`](https://eva-vos.compute.dtu.dk/resources/eva_vos.pdf)]
+[[`Paper (WACV 2024)`](https://openaccess.thecvf.com/content/WACV2024/papers/Parslov_CrashCar101_Procedural_Generation_for_Damage_Assessment_WACV_2024_paper.pdf)] [[`Project page`](https://crashcar.compute.dtu.dk)]
 
 Welcome to CrashCar! This repository contains the procedural generation pipeline used to generate [CrashCar101](https://www.crashcar.compute.dtu.dk).
 
